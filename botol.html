@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk Botol - PT Kayana Handal Aneka Indo</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body data-kategori="botol">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar-contact">
+        <a href="https://wa.me/6285932992374" target="_blank" class="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <a href="https://www.instagram.com/kayana_handal" target="_blank" class="instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@kayana_handal" target="_blank" class="tiktok">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="https://maps.app.goo.gl/p3gPTKWCaWURg9Fk9" target="_blank" class="maps">
+            <i class="fa-solid fa-location-dot"></i>
+        </a>
+    </div>
+
+    <!-- HEADER PRODUK -->
+    <section class="produk-page-header">
+        <h1>Produk Botol</h1>
+        <p>Berbagai pilihan botol plastik untuk minuman dan kebutuhan usaha.</p>
+        <a href="index.html#produk" class="btn-kembali">Kembali ke Produk</a>
+    </section>
+
+    <!-- LIST PRODUK OTOMATIS DARI CSV -->
+    <section class="produk-list" id="produkList"></section>
+
+    <!-- SCRIPT CSV -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="produk.js"></script>
+
+</body>
+</html>
